@@ -4,8 +4,8 @@ import Footer from './components/Footer/index';
 
 
 export const metadata = {
-  title: 'Be Bigital Biz',
-  description: 'บริษัท Be Bigital Biz',
+  title: 'Be Digital Biz',
+  description: 'บริษัท Be Digital Biz',
 }
 
 export default function RootLayout({
