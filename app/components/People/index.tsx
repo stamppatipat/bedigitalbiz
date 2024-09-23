@@ -5,34 +5,29 @@ import { useState } from 'react';
 
 const names = [
     {
-        heading: "Lite",
-        imgSrc: 'https://www.bedigitalbiz.co.th/wp-content/uploads/elementor/thumbs/snapedit_1702801713069-qgxqmwo3gttkozyc5fcrcfp01hjh5e3ske2vn1z580.png',
+        heading: "people1",
+        imgSrc: '/assets/people/people1.png',
     },
     {
-        heading: "Basic",
-        imgSrc: 'https://www.bedigitalbiz.co.th/wp-content/uploads/elementor/thumbs/snapedit_1702698356219-qgvnihcvyzo0mga63f98dvz6xfb4nzq2qq89orurlc.png',
+        heading: "people2",
+        imgSrc: '/assets/people/people2.png',
     },
     {
-        heading: "Plus",
-        imgSrc: 'https://www.bedigitalbiz.co.th/wp-content/uploads/elementor/thumbs/snapedit_1702698460187-qgvnjbfq1ot6xz2h7s9alodxxr6vib1hiv3t1mm628.png',
+        heading: "people3",
+        imgSrc: '/assets/people/people3.png',
     },
     {
-        heading: "Plus",
-        imgSrc: 'https://www.bedigitalbiz.co.th/wp-content/uploads/elementor/thumbs/snapedit_1702698535339-qgvnkynk09299eoglzusgrfzd12zz8kkr07ea26d68.png',
+        heading: "people4",
+        imgSrc: '/assets/people/people4.png',
     },
     {
-        heading: "Plus",
-        imgSrc: 'https://www.bedigitalbiz.co.th/wp-content/uploads/elementor/thumbs/snapedit_1702698480919-qgvnk4kpxjx2xvw5hmuq8z18cp794x95yvbux7eypc.png',
+        heading: "people5",
+        imgSrc: '/assets/people/people5.png',
     },
     {
-        heading: "Plus",
-        imgSrc: 'https://www.bedigitalbiz.co.th/wp-content/uploads/elementor/thumbs/snapedit_1702801713069-qgxqmwo3gttkozyc5fcrcfp01hjh5e3ske2vn1z580.png',
+        heading: "people6",
+        imgSrc: '/assets/people/people6.jpg',
     },
-    {
-        heading: "Plus",
-        imgSrc: 'https://www.bedigitalbiz.co.th/wp-content/uploads/elementor/thumbs/14-qgxqniadu0n6412xn6p6fs8lpckx2fhmbd31of338w.jpg',
-    },
- 
 ];
 
 
@@ -56,7 +51,7 @@ const People = () => {
                 </div>
 
                 {/* ภาพเล็กที่ใช้เลือก */}
-                <div className="grid grid-cols-7 gap-4">
+                <div className="grid grid-cols-6 gap-4">
                     {names.map((item, index) => (
                         <div key={index}>
                             <Image

@@ -8,9 +8,9 @@ interface NavigationItem {
 
 
 const navigation: NavigationItem[] = [
-  { name: 'Home', href: '#Home', current: true },
-  { name: 'Service', href: '#Service', current: true },
-  { name: 'Site Reference', href: '#Reference', current: true },
+  { name: 'Home', href: '../#Home', current: true },
+  { name: 'Service', href: '../#Service', current: true },
+  { name: 'Site Reference', href: '../#Reference', current: true },
 ];
 
 function classNames(...classes: string[]) {

@@ -9,25 +9,25 @@ interface datatype {
 
 const Aboutdata: datatype[] = [
     {
-        imgSrc: "https://www.bedigitalbiz.co.th/wp-content/uploads/2023/12/THK_LOGO.jpg",
+        imgSrc: "/assets/school/THK.jpg",
         heading: "โรงเรียนธรรมศาสตร์คลองหลวงวิทยาคม",
         paragraph: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa',
         // button: "/",
     },
     {
-        imgSrc: "https://www.bedigitalbiz.co.th/wp-content/uploads/2023/12/skr_logo-266x300-1.png",
+        imgSrc: "/assets/school/SKR.png",
         heading: "โรงเรียนสวนกุหลาบวิทยาลัย รังสิต",
         paragraph: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa',
         // button: "/",
     },
     {
-        imgSrc: "https://www.bedigitalbiz.co.th/wp-content/uploads/2023/12/Skw-logo-01.png",
+        imgSrc: "/assets/school/SKW.jpg",
         heading: "โรงเรียนศรีสะเกษวิทยาลัย",
         paragraph: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa',
         // button: "/"
     },
     {
-        imgSrc: "https://www.bedigitalbiz.co.th/wp-content/uploads/2022/08/%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%AA%E0%B8%B4%E0%B8%A3%E0%B8%B4%E0%B8%99%E0%B8%98%E0%B8%A3.png",
+        imgSrc: "/assets/school/SIRIN.jpg",
         heading: "โรงเรียนสิรินธร",
         paragraph: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa',
         // button: "/"
